@@ -17,5 +17,5 @@ def on_page_markdown(markdown, **kwargs):
 
     return markdown + dedent(f"""
     [Share on :simple-x:]({x_intent}?text={page_title}&url={page_url}){{ .md-button }}
-    [Share on :simple-linkedin:]({fb_sharer}?u={page_url}){{ .md-button }}
+    [Share on :simple-linkedin:]({fb_sharer}?url={page_url}){{ .md-button }}
     """)
