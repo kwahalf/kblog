@@ -20,4 +20,4 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install mkdocs-material mkdocs-rss-plugin 
-      - run: mkdocs gh-deploy --force
+      - run: export PYTHONPATH=. ; mkdocs gh-deploy --force
