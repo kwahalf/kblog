@@ -1,6 +1,6 @@
 site_name: Kwahalf Zone
 site_url: http://blog.kwahalf.com
-site_description: Blog containg intersting software and computer engineering concepts
+site_description: A blog containing interesting software and computer engineering concepts
 theme:
   name: material
   custom_dir: overrides
