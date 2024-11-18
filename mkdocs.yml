@@ -45,6 +45,8 @@ markdown_extensions:
 
 plugins:
   - search
+  - social:
+      enabled: !ENV [CI, false]
   - blog:
       blog_toc: true
       archive_date_format: MMMM yyyy

@@ -19,5 +19,5 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material mkdocs-rss-plugin 
+      - run: pip install mkdocs-material mkdocs-rss-plugin "mkdocs-material[imaging]"
       - run: export PYTHONPATH=. ; mkdocs gh-deploy --force
